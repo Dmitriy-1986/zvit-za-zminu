@@ -72,6 +72,11 @@
     background: linear-gradient(180deg, rgba(99, 99, 99) 1%, rgba(210, 210, 210) 50%, rgba(255, 255, 255) 100%);
 }
 
+.button:hover {
+    transition: 500ms;
+    box-shadow: 0px 0px 8px 8px rgba(34, 60, 80, 0.2);
+} 
+
 @media (max-width: 510px) {
     .alert_user {
         display: flex;
