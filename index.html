@@ -61,71 +61,77 @@
                 </div>
 
                 <div class="form-patrol">
-                    <label for="patrol">Патруль</label>
-                    <select name="patrol" class="patrol" id="patrol">
-                        <option>Вибрати патруль</option>
-                        <option>SKODA</option>
-                        <option>PRIUS</option>
-                        <option>ПІШИЙ</option>
-                        <option>ВЕЛО</option>
-                    </select>
-                    <label for="patrol">Номер авто</label>
-                    <select name="patrol" class="patrol" id="patrol">
-                        <option>Вибрати номер</option>
-                        <option>0000</option>
-                        <option>ПІШИЙ</option>
-                        <option>ВЕЛО</option>
-                    </select>
+                    <div class="form-patrol-box m-r25px">
+                        <label for="patrol">Патруль</label>
+                        <select name="patrol" class="patrol" id="patrol">
+                            <option>Вибрати патруль</option>
+                            <option>SKODA</option>
+                            <option>PRIUS</option>
+                            <option>ПІШИЙ</option>
+                            <option>ВЕЛО</option>
+                        </select>
+                    </div>
+                    <div class="form-patrol-box">
+                        <label for="patrol">Номер авто</label>
+                        <select name="patrol" class="patrol" id="patrol">
+                            <option>Вибрати номер</option>
+                            <option>0000</option>
+                            <option>ПІШИЙ</option>
+                            <option>ВЕЛО</option>
+                        </select>
+                    </div>
                 </div>
                 <hr>
                 <br>
                 <div class="form-info-patrol">
-                  <div style="display: flex; justify-content: space-between; width: 250px;">
-                    <label for="calls-for-change">Викликів за зміну</label>
-                    <select name="calls-for-change" class="calls-for-change" id="calls-for-change">
-                        <option>Вибрати</option>
-                        <script> 
-                         for(var d=1; d<=1000;d++) {
-                            document.write("<option>"+d+"</option>");
-                         }
-                       </script>
-                    </select>
-                   </div>
 
-                  <div style="display: flex; justify-content: space-between; width: 250px;">
-                    <label for="admin-supervision">Адмін. нагляд</label>
-                    <select name="admin-supervision" class="admin-supervision" id="admin-supervision">
-                        <option>Вибрати</option>
-                        <script> 
-                         for(var d=1; d<=1000;d++) {
-                            document.write("<option>"+d+"</option>");
-                         }
-                       </script>
-                    </select>
-                 </div>
+                    <div class="form-info-patrol-box">
+                        <label for="calls-for-change">Викликів за зміну</label>
+                        <select name="calls-for-change" class="calls-for-change" id="calls-for-change">
+                            <option>Вибрати</option>
+                            <script>
+                                for (var d = 1; d <= 1000; d++) {
+                                    document.write("<option>" + d + "</option>");
+                                }
+                            </script>
+                        </select>
+                    </div>
 
-                 <div style="display: flex; justify-content: space-between; width: 250px;">
-                    <label for="car-is-checked">Авто перевірено</label>
-                    <select name="car-is-checked" class="car-is-checked" id="car-is-checked">
-                        <option>Вибрати</option>
-                        <script> 
-                         for(var d=1; d<=1000;d++) {
-                            document.write("<option>"+d+"</option>");
-                         }
-                       </script>
-                    </select>
-                 </div>
+                    <div class="form-info-patrol-box">
+                        <label for="admin-supervision">Адмін. нагляд</label>
+                        <select name="admin-supervision" class="admin-supervision" id="admin-supervision">
+                            <option>Вибрати</option>
+                            <script>
+                                for (var d = 1; d <= 1000; d++) {
+                                    document.write("<option>" + d + "</option>");
+                                }
+                            </script>
+                        </select>
+                    </div>
 
-                  <div style="display: flex; justify-content: space-between; width: 250px;">
-                    <label for="persons-checked">Осіб перевірено</label>
-                    <select name="persons-checked" class="persons-checked" id="persons-checked">
-                        <option>Вибрати</option>
-                        <script> 
-                         for(var d=1; d<=1000;d++) {
-                            document.write("<option>"+d+"</option>");
-                         }
-                       </script>
-                    </select>
+                    <div class="form-info-patrol-box">
+                        <label for="car-is-checked">Авто перевірено</label>
+                        <select name="car-is-checked" class="car-is-checked" id="car-is-checked">
+                            <option>Вибрати</option>
+                            <script>
+                                for (var d = 1; d <= 1000; d++) {
+                                    document.write("<option>" + d + "</option>");
+                                }
+                            </script>
+                        </select>
+                    </div>
+
+                    <div class="form-info-patrol-box">
+                        <label for="persons-checked">Осіб перевірено</label>
+                        <select name="persons-checked" class="persons-checked" id="persons-checked">
+                            <option>Вибрати</option>
+                            <script>
+                                for (var d = 1; d <= 1000; d++) {
+                                    document.write("<option>" + d + "</option>");
+                                }
+                            </script>
+                        </select>
+                    </div>
                 </div>
                 <hr>
 
@@ -133,11 +139,11 @@
                     <label for="form-decree-el">Постанови електронні</label>
                     <select name="form-decree-el" class="form-decree-el" id="form-decree-el">
                         <option>Вибрати</option>
-                        <script> 
-                         for(var d=1; d<=1000;d++) {
-                            document.write("<option>"+d+"</option>");
-                         }
-                       </script>
+                        <script>
+                            for (var d = 1; d <= 1000; d++) {
+                                document.write("<option>" + d + "</option>");
+                            }
+                        </script>
                     </select>
                     <br>
                     <label for="form-decree-el-input">Серія, №</label>
@@ -153,11 +159,11 @@
                     <label for="persons-checked-papper">Постанови бумажні</label>
                     <select name="persons-checked-papper" class="persons-checked-papper" id="persons-checked-papper">
                         <option>Вибрати</option>
-                        <script> 
-                         for(var d=1; d<=1000;d++) {
-                            document.write("<option>"+d+"</option>");
-                         }
-                       </script>
+                        <script>
+                            for (var d = 1; d <= 1000; d++) {
+                                document.write("<option>" + d + "</option>");
+                            }
+                        </script>
                     </select>
                     <br>
                     <label for="form-decree-papper-input">Серія, №</label>
@@ -173,14 +179,14 @@
                 <div class="form-protocol-box">
                     <label for="form-protocol">Протоколи</label>
                     <select name="form-protocol" class="form-protocol" id="form-protocol">
-                       <option>Вибрати</option>                       
-                       <script> 
-                         for(var d=1; d<=1000;d++) {
-                            document.write("<option>"+d+"</option>");
-                         }
-                       </script>
+                        <option>Вибрати</option>
+                        <script>
+                            for (var d = 1; d <= 1000; d++) {
+                                document.write("<option>" + d + "</option>");
+                            }
+                        </script>
 
-                       <!--
+                        <!--
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -225,10 +231,10 @@
             </form>
 
         </main>
-        
+
         <footer>
             <span>
-                2021 рік, розробник сайту - <a href="https://dovgaldima.pp.ua">Довгаль Дмитро</a>, звертатись 
+                2021 рік, розробник сайту - <a href="https://dovgaldima.pp.ua">Довгаль Дмитро</a>, звертатись
                 <a title="Довгаль Дмитро" href="tg://resolve?domain=DovgalDmitriy"> за посиланням у Telegram</a>
             </span>
         </footer>
