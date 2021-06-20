@@ -37,7 +37,23 @@ details>dl>dt {
     margin: 5px;
     box-shadow: 1px 1px 2px #bbbbbb;
 }
+@media (max-width: 992px) {
+    details>dl>dt {
+        width: 97%;
+    }
+}
 
+@media (max-width: 550px) {
+    details>dl>dt {
+        width: 96%;
+    }
+}
+
+@media (max-width: 450px) {
+    details>dl>dt {
+        width: 95%;
+    }
+}
 .search {
     margin: 25px 5px 10px 5px;
 }
