@@ -60,7 +60,7 @@ main, label {
     background-color: #c1c1c1;
 } 
 
-main input {
+main .input {
     padding: 5px 0 5px 5px;
     border-radius: 5px;
     width: 97%;
