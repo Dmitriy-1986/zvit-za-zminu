@@ -86,3 +86,39 @@ main textarea {
     width: 100%;
 }
 
+
+.m-r25px {
+    margin-right: 25px;
+}
+.form-patrol {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.form-patrol-box {
+    display: flex;
+    justify-content: space-between;
+    width: 231px;
+}
+
+.form-info-patrol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.form-info-patrol-box {
+    display: flex;
+    justify-content: space-between;
+    width: 231px;
+}
+
+.form-info-patrol-box label {
+    margin-right: 5px;
+}
+
