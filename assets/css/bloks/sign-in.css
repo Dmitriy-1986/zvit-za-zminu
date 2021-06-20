@@ -50,6 +50,8 @@
 .password {
     width: 200px;
     height: 30px;
+    background-color: white;
+    border-color: white;
 }
 
 .alert_button {
