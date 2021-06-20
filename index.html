@@ -263,8 +263,8 @@
                 <div class="form-protocol-box">
                     <label for="form-protocol">Протоколи</label>
                     <select name="form-protocol" class="form-protocol" id="form-protocol">
-                        <option>Вибрати</option>
-                        <option id="num"></option>
+                        <!--<option>Вибрати</option>-->
+                        <div id="num"></div>
                        <!--
                         <option>1</option>
                         <option>2</option>
@@ -323,7 +323,7 @@
 let text = "";
 
 for (let i = 0; i < 1000; i++) {
-  text += i + "<br>";
+  text += "<option>"+i + "</option>";
 }
 
 document.getElementById("num").innerHTML = text;
