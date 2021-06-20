@@ -264,6 +264,8 @@
                     <label for="form-protocol">Протоколи</label>
                     <select name="form-protocol" class="form-protocol" id="form-protocol">
                         <option>Вибрати</option>
+                        <option id="num"></option>
+                       <!--
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -284,6 +286,7 @@
                         <option>18</option>
                         <option>19</option>
                         <option>20</option>
+                      -->
                     </select>
                     <br>
                     <label for="form-protocol-papper-input">Серія, №</label>
@@ -315,6 +318,17 @@
             </span>
         </footer>
     </div>
+
+<script>
+let text = "";
+
+for (let i = 0; i < 1000; i++) {
+  text += i + "<br>";
+}
+
+document.getElementById("num").innerHTML = text;
+</script>
+
 
 </body>
 
